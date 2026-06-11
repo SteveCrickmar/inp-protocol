@@ -46,3 +46,11 @@ Spec & schemas (JSON Schema 2020-12); reference resolver + validator in TypeScri
 
 ## Status
 Pre-alpha. Names are placeholders pending a trademark check (OC-6). Licensed MIT (proposed).
+
+**Protocol:** [`protocol/SPEC.md`](protocol/SPEC.md) is published at **`1.0.0-rc.1`** (release
+candidate). The Phase-0 ADRs ([`docs/adr/`](docs/adr/)) and the spike harness ([`spike/`](spike/))
+are landed, but several ADR decisions carry `PENDING MEASUREMENT` sections (restore fidelity,
+re-parenting, Android predictive-back) that require running the harness on a real
+simulator/device. **G0 sign-off is gated on those measurements** — until then `rc.1` is a
+coordination pin for `INP_SPEC_REF`, not the final freeze. See
+[`docs/measurements/`](docs/measurements/) and `docs/adr/0006-protocol-v1-decisions.md`.
