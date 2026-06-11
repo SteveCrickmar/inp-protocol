@@ -11,7 +11,7 @@
 - **[inertia-native-android](https://github.com/SteveCrickmar/inertia-native-android)** — single shared WebView across fragment destinations, AndroidX Navigation, path config, bridge components
 - **[inertia-native-laravel](https://github.com/SteveCrickmar/inertia-native-laravel)** — native detection & macros, shared props, signal routes & helpers, path-config authoring/serving, scaffolding & test helpers
 - **[inertia-native-demo](https://github.com/SteveCrickmar/inertia-native-demo)** — one Laravel 12 app with switchable React & Vue front ends exercising every feature; error-injection harness; doubles as docs example and UI-test target
-- **[docs](https://github.com/SteveCrickmar/docs)** — quick start, navigation, path configuration, signals, bridge components, native screens, auth, protocol reference
+- **[inertia-native-docs](https://github.com/SteveCrickmar/inertia-native-docs)** — quick start, navigation, path configuration, signals, bridge components, native screens, auth, protocol reference
 
 ## Project documents
 - [PRD](https://github.com/SteveCrickmar/inp-protocol/blob/main/docs/01-prd-inertia-native.md)
