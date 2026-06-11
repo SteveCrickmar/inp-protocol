@@ -2,7 +2,16 @@
 
 > Inertia Native Protocol (INP) — the versioned web↔native contract: spec, JSON Schemas, conformance fixtures, ADRs, and the M0 spike. Coordination point for all Inertia Native repos.
 
-Part of the **Inertia Native** project — an open-source toolkit for shipping native iOS & Android apps powered by an existing Laravel + Inertia.js application, modelled on (but not depending on) Hotwire Native.
+📋 **Part of the [Inertia Native](https://github.com/users/SteveCrickmar/projects/4) project** — an open-source toolkit for shipping native iOS & Android apps powered by an existing Laravel + Inertia.js application, modelled on (but not depending on) Hotwire Native. Track the cross-repo roadmap on the **[project board](https://github.com/users/SteveCrickmar/projects/4)**.
+
+### Repositories in the Inertia Native project
+- **inp-protocol** ⬅ _this repo_
+- **[inertia-native-adapter](https://github.com/SteveCrickmar/inertia-native-adapter)** — visit interception, screen page-cache & restore, lifecycle reporting, bridge transport
+- **[inertia-native-ios](https://github.com/SteveCrickmar/inertia-native-ios)** — Navigator, shared WKWebView + snapshot cache, path configuration, bridge components, native error/auth/recovery. Models Hotwire Native iOS; zero Turbo dependency
+- **[inertia-native-android](https://github.com/SteveCrickmar/inertia-native-android)** — single shared WebView across fragment destinations, AndroidX Navigation, path config, bridge components
+- **[inertia-native-laravel](https://github.com/SteveCrickmar/inertia-native-laravel)** — native detection & macros, shared props, signal routes & helpers, path-config authoring/serving, scaffolding & test helpers
+- **[inertia-native-demo](https://github.com/SteveCrickmar/inertia-native-demo)** — one Laravel 12 app with switchable React & Vue front ends exercising every feature; error-injection harness; doubles as docs example and UI-test target
+- **[docs](https://github.com/SteveCrickmar/docs)** — quick start, navigation, path configuration, signals, bridge components, native screens, auth, protocol reference
 
 ## Project documents
 - [PRD](https://github.com/SteveCrickmar/inp-protocol/blob/main/docs/01-prd-inertia-native.md)
